@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+}
+
+
+html {
+  height: 100%;
+  background: rgb(255, 232, 232);
+}
+
+.body {
+  font-family: 'Playfair Display SC', serif;
+  overflow-x: hidden;
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.text {
+color: rgb(0, 0, 0);
+}
+
+.autor {
+  color: #337AB7;
+  font-size: 15px;
+  padding-top: 10px;
+  display: block;
+  text-align: right;
+}
+
+.blockquote {
+  border-left: 6px solid #337AB7;
+  font-size: 16px;
+  font-style: italic;
+  margin: 16px;
+  padding: 16px 24px;
+  position: relative;
+}
+
+.buttons {
+  vertical-align: baseline;
+  line-height: 36px;
+  list-style: none;
+  background: rgb(236, 162, 162);
+  border-radius: 30px;
+  border: 1px solid white;
+}
+
+.button {
+  list-style: none;
+  padding-right: 30px;
+  display: inline-block;
+  border-radius: 10px;
+  border: seashell;
+}
+
+.link {
+  text-decoration: none;
+  color:black!important;
+}
+
+.intro {
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #fff;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.container {
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+  position: center;
+  display: block;
+  padding: 30px;
+  border-radius: 100px;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background: rgb(236, 162, 162);
+}
+
+.container::after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.column-1-3 {
+  height: auto;
+  width: 30%;
+  float: left;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+  padding:10px;
+  border-radius: 40px;
+  border: 2px solid white;
+  background: rgb(253, 191, 191)
+}
+
+@media (max-width: 960px) {
+  .column-1-3 {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  .column-1-3 {
+    float: none;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .column-1-3 {
+    float: none;
+    width: auto;
+  }
+}
+
+.intro-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border:1px solid rgb(255, 255, 255);
+  color: rgb(245, 192, 192);
+  font-size: 25px;
+}
+
+.big-text {
+  text-align: center;
+  font-size: 30px;
+}
+
+.title {
+  text-align: center;
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  padding: 15px;
+  letter-spacing: 2px;
+  border-radius: 30px;
+  border:1px solid rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
