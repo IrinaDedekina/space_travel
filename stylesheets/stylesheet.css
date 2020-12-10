@@ -115,7 +115,7 @@ color: rgb(0, 0, 0);
   background: rgb(253, 191, 191)
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1400px) {
   .column-1-3 {
     float: none;
     width: 100%;
@@ -144,6 +144,11 @@ color: rgb(0, 0, 0);
     width: auto;
   }
 
+  .intro-title-text {
+    word-break: break-all;
+    font-size: 30px;
+  }
+
   .button {
     float: none;
     width: 100%;
@@ -153,11 +158,11 @@ color: rgb(0, 0, 0);
 }
 
 .intro-title {
+  width: 80%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border:1px solid rgb(255, 255, 255);
   color: rgb(245, 192, 192);
   font-size: 20px;
   margin-right: 10px;
