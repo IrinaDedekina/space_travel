@@ -177,7 +177,8 @@ color: rgb(0, 0, 0);
   font-size: 20px;
   margin-right: 10px;
   margin-left: 10px;
-  word-break: break-all;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .intro-title-text {
