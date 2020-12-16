@@ -133,6 +133,10 @@ color: rgb(0, 0, 0);
     margin-left: auto;
     margin-right: auto;
   }
+
+  .title {
+    width: 90%;
+  }
 }
 
 @media (max-width: 640px) {
@@ -154,9 +158,8 @@ color: rgb(0, 0, 0);
     width: auto;
   }
 
-  .intro-title-text {
-    word-break: break-all;
-    font-size: 30px;
+  .intro-title {
+    font-size: 10px;
   }
 
   .button {
@@ -174,7 +177,6 @@ color: rgb(0, 0, 0);
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(245, 192, 192);
-  font-size: 20px;
   margin-right: 10px;
   margin-left: 10px;
   word-wrap: break-word;
@@ -194,7 +196,6 @@ color: rgb(0, 0, 0);
 .title {
   text-align: center;
   position: relative;
-  width: auto;
   margin: 0 auto;
   padding: 15px;
   letter-spacing: 2px;
